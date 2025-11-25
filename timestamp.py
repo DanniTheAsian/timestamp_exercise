@@ -121,8 +121,8 @@ class TimeStamp:
         #d = decimal
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
 
-    # __repr__ er en speciel method som er en "præcis" tekst der repræsenterer ens objekt.abs
-    #Bruges primært til debugging
+    # __repr__ er en speciel method som er en "præcis" tekst der repræsenterer ens objekt.
+    #  Bruges primært til debugging
     def __repr__(self) -> str:
         return f'Timestamp: {self.hours}, {self.minutes}, {self.seconds}'
 
